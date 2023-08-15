@@ -122,7 +122,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>
             {" "}
-            {process.env.NEXT_PUBLIC_TITLE ?? "Jarvis"}
+            {process.env.NEXT_PUBLIC_TITLE ?? "ChatGPT"}
           </div>
           <div className={styles["sidebar-sub-title"]}>
             {process.env.NEXT_PUBLIC_SUB_TITLE ??
